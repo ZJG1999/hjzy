@@ -1,12 +1,23 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <van-tabbar v-model="active">
+  <van-tabbar-item icon="home-o" :to="{name:'tuijian'}">推荐</van-tabbar-item>
+  <van-tabbar-item icon="search" :to="{name:'remen'}">热门</van-tabbar-item>
+  <van-tabbar-item icon="friends-o" :to="{name:'sousuo'}">搜索</van-tabbar-item>
+  <van-tabbar-item icon="setting-o" :to="{name:'wode'}">我的</van-tabbar-item>
+</van-tabbar>
     <router-view/>
   </div>
 </template>
+<script>
+export default {
+   data() {
+    return {
+      active: 0
+    }
+  }
+}
+</script>
 
 <style>
 #app {

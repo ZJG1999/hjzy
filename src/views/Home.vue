@@ -1,6 +1,8 @@
 <template>
   <div class="home">
-   
+   <p>sddd
+     
+   </p>
   </div>
 </template>
 

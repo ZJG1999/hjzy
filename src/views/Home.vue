@@ -1,7 +1,7 @@
 <template>
   <div class="home">
    <p>sddd
-     
+     啊实打实大
    </p>
   </div>
 </template>

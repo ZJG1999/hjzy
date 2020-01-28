@@ -1,4 +1,7 @@
 <template>
+<div>
+  remen
+</div>
 </template>
 <script>
 export default {

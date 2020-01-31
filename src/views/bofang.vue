@@ -5,7 +5,7 @@
 " slot="right"  style="font-size:20px"/>
     </van-nav-bar>
     <div id="bobo">
-    <h3>歌曲</h3>
+    <h3>歌 曲</h3>
     <h1>{{mingzi}}</h1>
       <h4><span style="color:#000">演唱：</span>{{scsc}}</h4>
       <img :src="fuck" alt id="tup" class="an" />

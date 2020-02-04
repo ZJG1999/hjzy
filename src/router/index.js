@@ -34,6 +34,14 @@ const routes = [
     path: '/bofang',
     name: 'bofang',
     component: () => import('../views/bofang.vue')
+  },{
+    path: '/mv',
+    name: 'mv',
+    component: () => import('../views/mv.vue')
+  },{
+    path: '/ss',
+    name: 'ss',
+    component: () => import('../views/ss.vue')
   }
 ]
 

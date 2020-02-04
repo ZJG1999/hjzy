@@ -19,7 +19,7 @@
           <van-collapse-item title="我的歌单" class="fuzuo">
             <ul>
               <li v-for="i in center" :key="i.id" class="lili" @click="bofang(i.id)">
-                  <img :src="i.al.picUrl" alt style="height:55px;margin-top:8px;width:55px" />
+                  <img :src="i.al.picUrl" alt style="height:55px;width:55px" />
                   <span style="width:100%;font-size:13px">{{i.name}}</span>
                   <span id="yanchang">演唱者：{{i.ar[0].name}}</span>
               </li>
@@ -88,6 +88,8 @@ img{height: 180px;width: 90%}
   display: flex;
   margin-top: 1px;
   align-items: center;
-  border: 1px solid;
+  border: .1px solid;
+  margin-top: 10px;
 }
+#yanchang{width: 40%}
 </style>

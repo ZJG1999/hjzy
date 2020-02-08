@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <van-tabbar v-model="active">
-  <van-tabbar-item icon="home-o" :to="{name:'tuijian'}">推荐</van-tabbar-item>
-  <van-tabbar-item icon="search" :to="{name:'remen'}">热门</van-tabbar-item>
+  <!-- <van-tabbar-item icon="home-o" :to="{name:'tuijian'}">推荐</van-tabbar-item>
+  <van-tabbar-item icon="search" :to="{name:'remen'}">热门</van-tabbar-item> -->
   <van-tabbar-item icon="friends-o" :to="{name:'sousuo'}">搜索</van-tabbar-item>
   <van-tabbar-item icon="setting-o" :to="{name:'wode'}">我的</van-tabbar-item>
 </van-tabbar>
